@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find the Length of a Leg in a Right-Angled Triangle</title>
+    <meta name="description" content="Easily and quickly calculate the length of a leg in a right-angled triangle using this calculator. Based on the Pythagorean theorem."/>
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../calcstyle.css"> 
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9820535772137571"
+     crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <a href="/index.html"><img id="logo" width="181px" height="70px" alt="logo" src="/calcax-70px.png"></img></a>
+        <ul id="menu">
+            <li>
+                <a href="/index.html">Home</a>
+            </li>
+            <li>
+                <a href="/contact.html">Contact</a>
+            </li>
+        </ul>
+    </header>
+    <section class="showcase" id="calc-showcase">
+        <h1>Find the Length of a Triangle Leg</h1>
+    </section>
+    <main id="calculator">
+        <div>
+            <div class="input">
+                <p>Known Leg</p>
+                <input id="input1" type="number" placeholder="">
+            </div>
+            <div class="input">
+                <p>Hypotenuse</p>
+                <input id="input2" type="number" placeholder="">
+            </div>
+            <div id="oneResult">
+                <p id="oneResultText">Leg:</p>
+            </div>
+            <div id="description">
+                <p class="paragraph">
+                    The unit for the known leg and hypotenuse will be the same as for the unknown leg. The legs are the two shorter sides of a right-angled triangle. The hypotenuse is the longest side and is always opposite the right angle. To find the leg (a) in a right-angled triangle, given the length of one leg (b) and the hypotenuse (c), you can use the formula: a = sqrt(c^2 - b^2). This means the length of leg a is the square root of the hypotenuse squared minus the known leg squared.
+                </p>
+                <img src="/geometry/pytagoras-setning-katet.jpg" width="600px" height="400px" alt="Pythagorean theorem for finding a leg">
+                <p class="paragraph">
+                    The Pythagorean theorem is one of the fundamental principles in geometry and is used to calculate the lengths of sides in a right-angled triangle. If you know the hypotenuse and one of the legs, you can determine the other leg with a simple calculation. The theorem states that the sum of the squares of the legs equals the square of the hypotenuse. This makes it possible to find an unknown side when the other two are known.
+                </p>
+                <p class="paragraph">
+                    If you need to find the length of a leg and already know the hypotenuse and the other leg, subtract the square of the known leg from the square of the hypotenuse and then take the square root of the result. This may seem abstract, but in practice, it's a straightforward calculation. For example, if the hypotenuse is ten and one leg is six, first square the hypotenuse (100), then square the known leg (36). Subtracting these gives 64, and the square root of 64 is 8. So, the missing leg must be 8 units long.
+                </p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Copyright 2025 © Calcax</p>
+        <a id="footerFirstElement" href="/terms-of-use.html">Terms of Use</a>
+        <a id="footerLastElement" href="/privacy-policy.html">Privacy Policy</a>
+    </footer>
+    <script src="/geometry/find-legs.js"></script>
+</body>
+</html>

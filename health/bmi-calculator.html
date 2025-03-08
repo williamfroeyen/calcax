@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metric BMI (Body Mass Index) Calculator</title>
+    <meta name="description" content="Quickly and accurately calculate your BMI with this metric BMI calculator. Find out where your BMI falls on the BMI scale."/>
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../calcstyle.css"> 
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9820535772137571"
+     crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <a href="/index.html"><img id="logo" width="181px" height="70px" alt="logo" src="/calcax-70px.png"></img></a>
+        <ul id="menu">
+            <li>
+                <a href="/index.html">Home</a>
+            </li>
+            <li>
+                <a href="/contact.html">Contact</a>
+            </li>
+        </ul>
+    </header>
+    <section class="showcase" id="calc-showcase">
+        <h1>Metric BMI Calculator</h1>
+    </section>
+    <main id="calculator">
+        <div>
+            <div class="input">
+                <p>Height (cm)</p>
+                <input id="input1" type="number" placeholder="m">
+            </div>
+            <div class="input">
+                <p>Weight (kg)</p>
+                <input id="input2" type="number" placeholder="kg">
+            </div>
+            <div id="oneResult">
+                <p id="oneResultText">Result:</p>
+            </div>
+            <div id="description">
+                Applicable only for adults aged 18 to 70:
+                <ul id="table">
+                    <li id="tre">16 or below: Underweight (Severe)</li>
+                    <li id="to">17 or below: Underweight (Moderate)</li>
+                    <li id="en">Below 18.5: Underweight (Mild)</li>
+                    <li id="null">Between 18.5 and 25: Normal weight</li>
+                    <li id="en">Above 25: Overweight</li>
+                    <li id="to">30 or above: Obesity</li>
+                    <li id="tre">35 or above: Severe obesity</li>
+                    <li id="tre">40 or above: Morbid obesity</li>
+                </ul>
+                <p class="paragraph">
+                    Keep in mind that BMI may indicate overweight if you have high muscle mass or are pregnant, even if you are at a healthy weight. For children and those over 70, BMI values may have different implications. To calculate BMI, divide weight (kg) by height (m) squared. The formula is: weight / (height * height), where weight is in kilograms and height is in meters. For example, a person who is 180 cm tall and weighs 75 kg would calculate as follows: 75 / (1.80 * 1.80) = 23.15.
+                </p>
+                <p class="paragraph">
+                    Body Mass Index (BMI) is a simple method for assessing a person's body weight in relation to their height. The formula for BMI is body weight in kilograms divided by height in meters squared. This results in a number that categorizes individuals from underweight to obese. While BMI is often used as an indicator of healthy or unhealthy weight, it has several limitations.
+                </p>
+                <p class="paragraph">
+                    One of the main issues with BMI is that it does not take body composition into account. Two people with the same BMI can have very different fat percentages and muscle mass. A well-trained athlete with significant muscle mass might fall into the "overweight" or even "obese" category despite being in excellent physical condition. Conversely, a person with low muscle mass but a high fat percentage could have a BMI in the "normal" range while actually having an unhealthy body composition.
+                </p>
+                <p class="paragraph">
+                    BMI also does not account for individual differences such as age, gender, or genetics. Older individuals tend to have more body fat than younger ones with the same BMI, and women naturally have a higher fat percentage than men. Additionally, genetic factors influence fat distribution in the body, which can impact health risks. For example, visceral fat (fat around the organs) is more harmful than subcutaneous fat (fat under the skin).
+                </p>
+                <p class="paragraph">
+                    Despite these limitations, BMI is a useful tool in population studies and health assessments, as it provides a quick and simple overview of weight distribution in large groups. Health authorities often use BMI to track obesity trends and plan public health initiatives. For individuals, BMI can indicate whether weight adjustments may be necessary, but it is essential not to rely solely on this measurement.
+                </p>
+                <p class="paragraph">
+                    For a more accurate assessment of health and body composition, it is beneficial to consider other factors alongside BMI. Measurements such as waist circumference, body fat percentage, and overall physical fitness provide a more comprehensive picture of health. Additionally, lifestyle habits, including diet, physical activity, and sleep, play a crucial role in overall well-being. Therefore, BMI should be used cautiously and as part of a broader health evaluation.
+                </p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Copyright 2025 © Calcax</p>
+        <a id="footerFirstElement" href="/terms-of-use.html">Terms of Use</a>
+        <a id="footerLastElement" href="/privacy-policy.html">Privacy Policy</a>
+    </footer>
+    <script src="/health/bmi-calculator.js"></script>
+</body>
+</html>
